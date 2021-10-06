@@ -74,6 +74,7 @@
     should collect,influencing how much dividends get collected and influencing the price of DWORK.
                            
     I've created these contracts to solve the trust issues I have while freelancing online.
+    
                            
                            https://github.com/StrawberryChocolateFudge/dwork 
     
@@ -118,7 +119,5 @@
                                          .'              _..-'   :
                                         /         __.--""         :
 
-HELP ME CREATE THIS
-GITCOIN GRANT COMING SOON
-
-https://github.com/StrawberryChocolateFudge/dwork
+       HELP ME CREATE THIS
+       GITCOIN GRANT COMING SOON
