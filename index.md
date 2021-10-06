@@ -33,11 +33,11 @@
 
 
 
-                                   We got managed escrow smart contracts!
+                              I got managed escrow smart contracts!
 
 
 
-                                               Enter:
+                                              Enter:
 
 
 
