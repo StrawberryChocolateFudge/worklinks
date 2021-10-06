@@ -61,8 +61,7 @@
     makes a deposit.
     The job can be either accepted and the worker gets payed or the client may start a 
     dispute and get a refund with the help of the manager.
-
-    Software developer recruiters can conduct their businesses completely on-chain.
+    
     There is an ERC-20 governance token called DWORK.
     It’s sold via the crowdsale contract.
 
@@ -73,7 +72,9 @@
 
     Holders of DWORK are able to vote on the BOARD contract to decide how much fees they 
     should collect,influencing how much dividends get collected and influencing the price of DWORK.
-                         
+                                           
+                              The front end is still under development.
+     
                          
                                             Wanna support?
                         
@@ -113,6 +114,7 @@
                                          .'              _..-'   :
                                         /         __.--""         :
 
+HELP ME CREATE THIS
 GITCOIN GRANT COMING SOON
 
 https://github.com/StrawberryChocolateFudge/dwork
