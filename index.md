@@ -72,8 +72,12 @@
 
     Holders of DWORK are able to vote on the BOARD contract to decide how much fees they 
     should collect,influencing how much dividends get collected and influencing the price of DWORK.
-                                           
-                              The front end is still under development.
+                           
+    I've created these contracts to solve the trust issues I have while freelancing online.
+                           
+                           https://github.com/StrawberryChocolateFudge/dwork 
+    
+                             The front end is still under development.
      
                          
                                             Wanna support?
