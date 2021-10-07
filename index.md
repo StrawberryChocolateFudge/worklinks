@@ -41,40 +41,40 @@
 
 
 
-                              ██████╗ ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
-                              ██╔══██╗██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
-                              ██║  ██║██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
-                              ██║  ██║██║███╗██║██║   ██║██╔══██╗██╔═██╗ 
-                              ██████╔╝╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗
-                              ╚═════╝  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+                            ██████╗ ██╗    ██╗ ██████╗ ██████╗ ██╗  ██╗
+                            ██╔══██╗██║    ██║██╔═══██╗██╔══██╗██║ ██╔╝
+                            ██║  ██║██║ █╗ ██║██║   ██║██████╔╝█████╔╝ 
+                            ██║  ██║██║███╗██║██║   ██║██╔══██╗██╔═██╗ 
+                            ██████╔╝╚███╔███╔╝╚██████╔╝██║  ██║██║  ██╗
+                            ╚═════╝  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
 
                               DWORK is made up of 8 smart contracts.
                                    
-                                           How it works?
+                                         How it works?
 
-                                   ╦ ╦┌─┐┬─┐┬┌─┌─┐┌─┐┌─┐┌─┐┌─┐┌─┐
-                                   ║║║│ │├┬┘├┴┐└─┐├─┘├─┤│  ├┤ └─┐
-                                   ╚╩╝└─┘┴└─┴ ┴└─┘┴  ┴ ┴└─┘└─┘└─┘
+                                 ╦ ╦┌─┐┬─┐┬┌─┌─┐┌─┐┌─┐┌─┐┌─┐┌─┐
+                                 ║║║│ │├┬┘├┴┐└─┐├─┘├─┤│  ├┤ └─┐
+                                 ╚╩╝└─┘┴└─┴ ┴└─┘┴  ┴ ┴└─┘└─┘└─┘
                                                                         
     You can deploy your own workspace contract.
     The workspace contract has role management and the deployer has the MANAGER role.
     The MANAGER can add wallet addresses with WORKER or CLIENT roles to their workspace.
     
-                                           ╦┌─┐┌┐ ┌─┐
-                                           ║│ │├┴┐└─┐
-                                          ╚╝└─┘└─┘└─┘
+                                         ╦┌─┐┌┐ ┌─┐
+                                         ║│ │├┴┐└─┐
+                                        ╚╝└─┘└─┘└─┘
 
-    A manager can deploy a Job contract for the specific client which works as a managed
+    A MANAGER can deploy a Job contract for the specific CLIENT which works as a managed
     escrow.
-    The manager is able to assign a worker to the Job and he may start work if the client
+    The MANAGER is able to assign a WORKER to the Job and he may start work if the CLIENT
     makes a deposit.
-    The job can be either accepted and the worker gets payed or the client may start a 
-    dispute and get a refund with the help of the manager.
+    The job can be either accepted and the WORKER gets payed or the CLIENT may start a 
+    dispute and get a refund with the help of the MANAGER.
     
     
-                                        ╔╦╗╦ ╦╔═╗╦═╗╦╔═
-                                         ║║║║║║ ║╠╦╝╠╩╗
-                                        ═╩╝╚╩╝╚═╝╩╚═╩ ╩
+                                      ╔╦╗╦ ╦╔═╗╦═╗╦╔═
+                                       ║║║║║║ ║╠╦╝╠╩╗
+                                      ═╩╝╚╩╝╚═╝╩╚═╩ ╩
     
     There is an ERC-20 governance token called DWORK.
     It’s sold via the crowdsale contract.
@@ -82,26 +82,29 @@
     Job fees are payed to the manager and also accumulate in a Dividends contract.
 
 
-                                   ╔╦╗┬┬  ┬┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
-                                    ║║│└┐┌┘│ ││├┤ │││ ││└─┐
-                                   ═╩╝┴ └┘ ┴─┴┘└─┘┘└┘─┴┘└─┘
+                                 ╔╦╗┬┬  ┬┬┌┬┐┌─┐┌┐┌┌┬┐┌─┐
+                                  ║║│└┐┌┘│ ││├┤ │││ ││└─┐
+                                 ═╩╝┴ └┘ ┴─┴┘└─┘┘└┘─┴┘└─┘
 
     Holders of DWORK are able to lock DWORK for a period, in exchange for dividends payed to them.
     They can claim passive income.
 
     Holders of DWORK are able to vote on the BOARD contract to decide how much fees they 
-    should collect,influencing how much dividends get collected and influencing the price of DWORK.
+    should collect, influencing how much dividends get collected and influencing the price of DWORK.
     
     
     I've created these contracts to solve the trust issues I have while freelancing online.
-    
+
+                    ╔═╗┬ ┬┬  ┬    ┌┬┐┌─┐┌─┐┌┬┐  ┌─┐┌─┐┬  ┬┌─┐┬─┐┌─┐┌─┐┌─┐
+                    ╠╣ │ ││  │     │ ├┤ └─┐ │   │  │ │└┐┌┘├┤ ├┬┘├─┤│ ┬├┤ 
+                    ╚  └─┘┴─┘┴─┘   ┴ └─┘└─┘ ┴   └─┘└─┘ └┘ └─┘┴└─┴ ┴└─┘└─┘
                            
-                           https://github.com/StrawberryChocolateFudge/dwork 
+                         https://github.com/StrawberryChocolateFudge/dwork 
     
-                             The front end is still under development.
+                           The front end is still under development.
      
                          
-                                            Wanna support?
+                                          Wanna support?
                         
                                               _...._
                                           _.dMMMMMMMMMb.
